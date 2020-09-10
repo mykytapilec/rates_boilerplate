@@ -15,7 +15,7 @@ function App() {
   return (
     <ConnectedRouter history={routeHistory}>
       <Layout style={{ minHeight: '100%' }}>
-        <Header>Rates</Header>
+        <Header>Schedule of changes in exchange rate</Header>
         <Layout>
           <Content>
             <Switch>
